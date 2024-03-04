@@ -6,6 +6,6 @@ const sayHi = (name) => {
    console.log(`hello there ${name}`);
 }
 
-sayHi('raya');
+sayHi('raya shafai');
 sayHi(diana);
 sayHi(qwariq);
