@@ -1,0 +1,15 @@
+{
+  "name": "aswe",
+  "version": "1.0.0",
+  "description": "aswe project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asw"
+  },
+  "author": "diana",
+  "license": "ISC"
+}
