@@ -1,12 +1,12 @@
-const express=require('express')
-const application =express();
-application.listen(3001,()=>{
-    console.log('server is running now')
+//  const express=require('express')
+//  const application =express();
+//  application.listen(3001,()=>{
+    console.log('server is running right now ')
 
-}
-)
-
-
+//  }
+//  )
 
 
 
+
+   
