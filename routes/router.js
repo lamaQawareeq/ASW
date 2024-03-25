@@ -23,3 +23,4 @@ router.post("/deleteuser", [
 
 router.post("/updateuser", usercontroller.updateuser);
  module.exports=router
+ module.exports=router
