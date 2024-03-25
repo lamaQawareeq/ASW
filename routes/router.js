@@ -18,7 +18,7 @@ router.post("/deleteuser", [
         if (isNaN(value)) {
             throw new Error("id should be only number");
         }
-        return true;       // Indicates the success of the validation
+        return true;        // Indicates the success of the validation
     })
 ], usercontroller.deleteuser);
 
