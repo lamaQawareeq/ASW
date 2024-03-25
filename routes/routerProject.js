@@ -13,7 +13,7 @@ router.post("/allproject/skills", [
 ], ProjectController.getProjectsBySkill);
 
 
-router.post("/allproject/skills/projectID", [
+router.post ("/allproject/skills/projectID", [
     check("projectID").custom((value, { req }) => {
         if (!value) {
             throw new Error("id is required");

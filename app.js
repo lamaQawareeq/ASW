@@ -11,7 +11,7 @@ const  projectRoutes = require('./routes/routerProject');
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(rout);
+//app.use(rout);  
 
 app.use ("/allproject/skills/projectID/picture/ofCompletaion" ,express.static(path.join(__dirname,"images")));  //localhost:3001allproject/skills/projectID/picture/ofCompletaion/tat.jpg
 app.use("/allproject/skills/projectID/picture/ofMaterial" ,express.static(path.join(__dirname,"images"))); //localhost:3001allproject/skills/projectID/picture/ofCompletaion/tat.jpg
