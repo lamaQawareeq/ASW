@@ -1,14 +1,14 @@
 const express=require('express')
 const usercontroller=require("../controllers/UserController")
 const  router= require('express').Router();
-const {check}=require ("express-validator");
+const {check}=require  ("express-validator");
 
 
 
-router.get("/",(req,res,next)=>{
+ router.get("/",(req,res,next)=>{
     res.send("diana")
      })
-router.get("/allusers",usercontroller.getalluser)
+router.get("/allusers" ,usercontroller.getalluser)
 router.post("/adduser",usercontroller.addnewuser)
 router.post("/deleteuser", [
     check("id").custom((value, { req }) => {
@@ -18,7 +18,7 @@ router.post("/deleteuser", [
         if (isNaN(value)) {
             throw new Error("id should be only number");
         }
-        return true;    // Indicates the success of the validation
+        return true;       // Indicates the success of the validation
     })
 ], usercontroller.deleteuser);
 
